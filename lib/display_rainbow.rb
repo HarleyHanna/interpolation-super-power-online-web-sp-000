@@ -2,7 +2,7 @@
 
 
 def display_rainbow(colors)
-  print "R: #{colors[0]}"
+  print "R: #{colors[0]}, "
   print "O: #{colors[1]}"
   print "Y: #{colors[2]}"
   print "G: #{colors[3]}"
@@ -11,4 +11,4 @@ def display_rainbow(colors)
   print "V: #{colors[6]}"
 end
 
-display_rainbow(["red, ", "orange, ", "yellow, ", "green, ", "blue, ", "indigo, ", "violet, "])
+display_rainbow(["red", "orange, ", "yellow, ", "green, ", "blue, ", "indigo, ", "violet, "])
